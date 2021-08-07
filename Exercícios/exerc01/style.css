@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    background-color: blanchedalmond;
+}
+
+.corpo {
+    width: 50%;
+    height: 85vh;
+    background-color: darkgray;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+    padding: 2%;
+    color: gainsboro;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    padding: 2%;
+    color: gainsboro;
+}
+
+input {
+    display: block;
+    margin: 5% auto;
+    padding: 5px;
+}
+
+button {
+    background-color: black;
+    color: azure;
+    display: block;
+    margin: 7% auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.campo-resultado {
+    width: 100%;
+    height: 10vh;
+    background-color: gainsboro;
+}
+
+#resultado {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 20px;
+}

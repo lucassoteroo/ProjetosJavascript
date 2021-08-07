@@ -1,0 +1,23 @@
+# Lista de Exercícios
+
+1. Descrever um algoritmo para resolver o problema da travessia de modo seguro:
+
+1. Iniciar
+2. Pegar a cabra na primeira margem e botar no barco
+3. Atravessar com a cabra para a segunda margem
+4. Deixar a cabra na segunda margem
+5. Voltar para a primeira margem
+6. Pegar o maço de alfafa e botar no barco
+7. Atravessar com a alfafa para a segunda margem
+8. Deixar a alfafa a segunda margem 
+9. Pegar a cabra e botar no barco
+10. Voltar com a cabra para a primeira margem
+11. Deixar a cabra na primeira margem
+12. Pegar o lobo e botar no barco
+13. Atravessar com o lobo para a segunda margem
+14. Deixar o lobo na segunda margem com a alfafa
+15. Voltar para a primeira margem
+16. Pegar a cabra e botar o barco
+17. Atravessar com a cabra para a segunda margem
+18. Descer com a cabra na segunda margem.
+19. Fim
