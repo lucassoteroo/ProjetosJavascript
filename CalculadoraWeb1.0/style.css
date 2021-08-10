@@ -9,54 +9,109 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    background-color: #7F7F7F;
+}
+
 .apresentacao {
     width: 100%;
     text-align: center;
-    background-color: gray;
+    background-color: #000000;
 }
 
 .apresentacao h2 {
+    color: #fff;
     font-size: 3.25rem;
+    padding: 2% 0;
 }
 
 .apresentacao p {
+    color: #fff;
     font-size: 2rem;
+    padding-bottom: 2%;
     font-style: italic;
 }
 
 .calculos {
-    height: 100vh;
-    background-color: slategray;
+    background-color: #7F7F7F;
 }
 
 .soma {
+    background-color: #FBF37C;
     width: 50%;
-    float: left;
     text-align: center;
-    padding: 5%;
+    margin: 5% auto;
+    padding: 2.5%;
 }
 
 .subtracao {
+    background-color: #FBF37C;
     width: 50%;
-    float: left;
     text-align: center;
-    padding: 5%;
+    margin: 5% auto;
+    padding: 2.5%;
 }
 
 .multiplicacao {
+    background-color: #FBF37C;
     width: 50%;
-    float: left;
     text-align: center;
-    padding: 5%;
+    margin: 5% auto;
+    padding: 2.5%;
 }
 
 .divisao {
+    background-color: #FBF37C;
     width: 50%;
-    float: left;
     text-align: center;
-    padding: 5%;
+    margin: 5% auto;
+    padding: 2.5%;
 }
 
 h4 {
-    color: #fff;
+    font-size: 2.5rem;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    width: 25%;
+}
+
+.campo-resultado {
+    background-color: #7F7F7F;
+    height: 5vh;
+    margin: 30px auto 0 auto;
+    width: 30%
+}
+
+#resultado-soma {
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#resultado-sub {
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#resultado-mult {
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#resultado-div {
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: bold;
 }
