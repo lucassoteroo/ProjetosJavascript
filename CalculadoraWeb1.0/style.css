@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.apresentacao {
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+}
+
+.apresentacao h2 {
+    font-size: 3.25rem;
+}
+
+.apresentacao p {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.calculos {
+    height: 100vh;
+    background-color: slategray;
+}
+
+.soma {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 5%;
+}
+
+.subtracao {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 5%;
+}
+
+.multiplicacao {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 5%;
+}
+
+.divisao {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 5%;
+}
+
+h4 {
+    color: #fff;
+}

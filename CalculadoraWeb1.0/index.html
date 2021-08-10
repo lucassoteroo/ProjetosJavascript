@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./calculos/soma.js"></script>
+    <script src="./calculos/subtracao.js"></script>
+    <script src="./calculos/multiplicacao.js"></script>
+    <script src="./calculos/divisao.js"></script>
+    <title>Calculadora Web 1.0</title>
+</head>
+
+<body>
+    <section class="apresentacao">
+        <h2>Caculadora Web Simples</h2>
+        <p>Ajudamos você com cálculos simples!</p>
+    </section>
+    <section class="calculos">
+        <div class="soma">
+            <h4>Soma</h4>
+            <div class="n01">
+                <input type="text" id="numero1-soma">
+            </div>
+            <div class="n02">
+                <input type="text" id="numero2-soma">
+            </div>
+            <div class="botoes">
+            </div>
+            <button onclick="somar()">
+                Calcular
+            </button>
+            <div class="campo-resultado">
+                <div id="resultado-soma">
+
+                </div>
+            </div>
+        </div>
+        <div class="subtracao">
+            <h4>Subtração</h4>
+            <div class="n01">
+                <input type="text" id="numero1-sub">
+            </div>
+            <div class="n02">
+                <input type="text" id="numero2-sub">
+            </div>
+            <div class="botoes">
+            </div>
+            <button onclick="subtrair()">
+                Calcular
+            </button>
+            <div class="campo-resultado">
+                <div id="resultado-sub">
+
+                </div>
+            </div>
+        </div>
+        <div class="multiplicacao">
+            <h4>Multiplicação</h4>
+            <div class="n01">
+                <input type="text" id="numero1-mult">
+            </div>
+            <div class="n02">
+                <input type="text" id="numero2-mult">
+            </div>
+            <div class="botoes">
+            </div>
+            <button onclick="multiplicar()">
+                Calcular
+            </button>
+            <div class="campo-resultado">
+                <div id="resultado-mult">
+
+                </div>
+            </div>
+        </div>
+        <div class="divisao">
+            <h4>Divisão</h4>
+            <div class="n01">
+                <input type="text" id="numero1-div">
+            </div>
+            <div class="n02">
+                <input type="text" id="numero2-div">
+            </div>
+            <div class="botoes">
+            </div>
+            <button onclick="dividir()">
+                Calcular
+            </button>
+            <div class="campo-resultado">
+                <div id="resultado-div">
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
