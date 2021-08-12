@@ -3,3 +3,6 @@
 
 <h5>Objetivos</h5>
 - Pratica de JS
+
+<h5>Uso<h5>
+- Copiar código fonte e executar no terminal ou no JSFiddle,

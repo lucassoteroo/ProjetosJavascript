@@ -10,3 +10,6 @@
 - 3 tipos de funcionarios e suas bonificações
 - 1 cliente com seus dados e funções
 - 1 sistema de autenticação de usuário
+
+<h5>Uso<h5>
+- Copiar código fonte e executar no terminal ou no JSFiddle,
