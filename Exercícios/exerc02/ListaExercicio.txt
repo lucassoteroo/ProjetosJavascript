@@ -1,0 +1,44 @@
+1. Resolva as operações:
+
+- 25
+- '102'
+- 20
+- 3.33333
+- 1
+- 11
+- true
+- false
+- true
+- false
+- true
+- true
+- true
+- 11
+- 'deztrue'
+- 10
+- 0
+- 2
+- 11
+- 9
+- 1
+- 0
+- 0
+- 0
+- 0
+- true
+- false
+- true
+- 40
+- 30
+
+2. Responda as perguntas de acordo com as variáveis.
+
+a) false
+b) false
+c) true
+d) 'cinza'
+e) var entrada = 3000;
+   novoValor = valor - entrada;
+   totalPrestaçoes = novoValor / prestacao 
+   totalPrestaçoes == 36;
+f) 21
