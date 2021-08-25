@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>Cálculo de IMC</title>
+</head>
+
+<body>
+    <header>
+        <section class="cabecalho">
+            <h3>Calcule seu Imc conosco!</h3>
+            <div class="links">
+                <a href="#sobre">O que é Imc?</a>
+                <a href="#calculo">Descubra seu imc</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="sobre" name="sobre">
+            <h5>Sobre</h5>
+            <p>IMC é uma sigla utilizada para Índice de Massa Corporal.</p>
+            <p>O Índice de Massa Corporal é uma medida utilizada para medir a obesidade adotada pela Organização Mundial de Saúde (OMS). É o padrão internacional para avaliar o grau de obesidade.</p>
+            <p>O sobrepeso e a obesidade, indicados pelo IMC, são fatores de risco para doenças tais como a hipertensão arterial, a doença arterial coronariana e o diabetes melittus, além de outras patologias consideradas de alto risco para a Saúde Pública.</p>
+            <p>Hoje em dia, o IMC é utilizado como forma de comparar a saúde de populações, ou até mesmo definir prescrição de medicações.</p>
+            <p>Os valores de IMC são independentes de idade e sexo. Apesar disso, o IMC pode não corresponder ao mesmo grau de gordura em diferentes populações devido às diferentes proporções do corpo.</p>
+            <p>Riscos à saúde associados ao aumento do IMC devem ser constantemente observados e interpretados, já que podem ser diferentes em cada população.</p>
+        </section>
+        <section class="dados" name="calculo">
+            <h5>Cálculo</h5>
+            <div class="inputs">
+                <div class="container">
+                    <div class="peso">
+                        <label>Digite seu peso(kg):</label>
+                        <input type="number" id="valorPeso" placeholder="78">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="altura">
+                        <label>Digite seu altura(m):</label>
+                        <input type="number" id="valorAltura" placeholder="1.70">
+                    </div>
+                </div>
+            </div>
+            <div class="container-botao">
+                <div class="botao">
+                    <button onclick="calcularImc()">
+                    Calcular
+                </button>
+                </div>
+            </div>
+        </section>
+        <section class="resultados">
+            <h5>Resultado</h5>
+            <div class="resultados-campo">
+                <div class="container-resultado">
+                    <div id="resultadoImc">
+
+                    </div>
+                </div>
+                <div class="container-resultado">
+                    <div id="resultadoTabela">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 65.2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header .cabecalho {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background-color: #6495ED;
+    color: #fff;
+}
+
+header .cabecalho h3 {
+    margin: auto 0;
+    width: 50%;
+    font-size: 5rem;
+    padding-left: 40px;
+}
+
+header .links {
+    margin: auto 0;
+    width: 50%;
+    text-align: right;
+    padding-right: 40px;
+}
+
+header .links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.55rem;
+    padding-right: 25px;
+}
+
+header .links a:hover {
+    text-decoration: underline;
+}
+
+main .sobre,
+main .dados,
+main .resultados {
+    margin: 30px auto;
+    width: 90%;
+    background-color: #FFFAFA;
+}
+
+main .sobre h5,
+main .dados h5,
+main .resultados h5 {
+    font-size: 4rem;
+}
+
+main .sobre p {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main .dados .inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+
+main .dados .inputs .container {
+    margin: 20px 0;
+}
+
+main .dados .inputs .container .peso,
+main .dados .inputs .container .altura {
+    display: flex;
+    flex-direction: column;
+}
+
+main .dados .inputs .container label {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main .dados .inputs .container input {
+    height: 30px;
+    text-align: center;
+}
+
+main .botao {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main .botao button {
+    background-color: #6495ED;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+}
+
+main .botao button:hover {
+    background-color: #1E90FF;
+}
+
+main .resultados {
+    height: 25vh;
+}
+
+main .resultados .resultados-campo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .resultados .resultados-campo .container-resultado {
+    margin: 20px 0;
+}
+
+main .resultados .resultados-campo .container-resultado #resultadoImc,
+main .resultados .resultados-campo .container-resultado #resultadoTabela {
+    font-size: 3rem;
+}
