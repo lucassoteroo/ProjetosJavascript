@@ -1,0 +1,20 @@
+1. "Realizam a criação de sites ou aplicações pensando em como o usuário vai interagir". Se trata de qual tipo de desenvolvedor: (2 pontos)
+
+R = Front-end
+
+2. "É aquilo que torna o site mais interativo e moderno, muitas vezes referido como o "lado do servudor" de um site". Se trata de qual tipo de desenvolvedor: (2 pontos)
+
+R = Back-end
+
+3.  "O desenvolvimento web é baseado em Html, Css e Javascript". Essa afirmação é verdadeira ou falsa: (2 pontos)
+
+R = Verdadeira
+
+4. Qual dos dois se trata de uma linguagem de programação? (2 pontos)
+
+R = Javascript
+
+5. "O Html se trata do esqueleto da página; O Css se trata do visual; O Javascript são os músculos, o que dá movimento". Podemos, assim, simplificar propósito de cada um no desenvolvimento web: (2 pontos)
+
+R = Sim
+
