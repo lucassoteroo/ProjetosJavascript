@@ -2,9 +2,10 @@
 <p>"Uma calculadora de índide de massa corporal virtual, que lhe diz seu nível de imc"</p>
 
 <h5>Objetivo</h5>
-- Pratica de JS
-- Criar um ambiente com HTML, CSS e JS
+<li>Pratica de JS</li>
+<li>Criar um ambiente com HTML, CSS e JS</li>
 
-<div>
+<h5>Sistema em funcionamento:</h5>
+<section>
     <p align="center"><img src="./img/calculadorImc.jpeg" /></p>
-</div>
+</section>
