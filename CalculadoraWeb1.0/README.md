@@ -4,3 +4,7 @@
 <h5>Objetivo</h5>
 - Pratica de JS
 - Criar um ambiente com HTML, CSS e JS
+
+<div>
+    <p align="center"><img src="./img/calculadoraWeb.jpeg" /></p>
+</div>
