@@ -38,23 +38,46 @@ main h2 {
 
 main .input-group {
     width: 500px;
-    height: 30px;
     margin: 0 auto;
 }
 
 main .input-group input {
     text-align: center;
+    height: 40px;
     font-size: 2rem;
 }
 
 main .botao {
+    margin-top: 25px;
     text-align: center;
 }
 
 main form button {
     text-align: center;
-    margin-top: 25px;
     font-size: 2rem !important;
     width: 150px;
     height: 40px;
+}
+
+footer {
+    background-color: #112226;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+footer .row {
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+footer a:hover {
+    color: #fff;
 }
