@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./libs/Bootstrap/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <script src="./libs/JQuery/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>Consultor de Cep</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="navbar-brand text-white">Consultor de Cep</h1>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="00000-000" aria-label="Search" id="cep">
+                    <button class="btn btn-outline-success" onclick="consultaCep()">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="container texto">
+                    <div class="row">
+                        <p>CEP é a sigla de Código de Endereçamento Postal, criado e utilizado pelos Correios para facilitar o encaminhamento e a entrega das correspondências aos destinatários.</p>
+                        <p>O CEP é uma informação indispensável na correspondência, pois identifica todos os detalhes do endereço de quem vai receber ou de quem está enviando a correspondência.</p>
+                        <p>No Brasil o número do CEP é formado por oito algarismos, que identificam o endereço do destinatário da correspondência, facilitando a sua entrega.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="container cep">
+                    <div class="row">
+                        <h3 class="tituloCep"></h3>
+                    </div>
+                    <div class="row">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Bairro</td>
+                                    <td id="bairro"></td>
+                                </tr>
+                                <tr>
+                                    <td>Rua</td>
+                                    <td id="rua"></td>
+                                </tr>
+                                <tr>
+                                    <td>DDD</td>
+                                    <td id="ddd"></td>
+                                </tr>
+                                <tr>
+                                    <td>Cidade</td>
+                                    <td id="localidade"></td>
+                                </tr>
+                                <tr>
+                                    <td>Estado</td>
+                                    <td id="uf"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

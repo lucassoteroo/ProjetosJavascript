@@ -1,0 +1,23 @@
+body {
+    background-color: #BFBFBF;
+    height: 100vh;
+}
+
+.container-fluid {
+    background-color: #404040;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.texto,
+.cep {
+    margin-top: 80px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.texto p {
+    font-size: 1.15rem;
+}
